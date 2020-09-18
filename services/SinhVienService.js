@@ -30,4 +30,9 @@ var SinhVienService = function() {
         })
         return promise;
     }
+    //Tính năng tìm kiếm sinh viên
+    this.timKiemSinhVien = function( keyword ) {
+        console.log('Chức năng tìm kiếm sinh viên');
+        return '';
+    }
 }
